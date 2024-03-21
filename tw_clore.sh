@@ -7,7 +7,7 @@ url="https://api.teamwork.su/q/address/$tw_address"
 q_address=$(curl -sSL "$url")
 
 mkdir /www.TeamWork.su && cd /www.TeamWork.su
-package=qli-Client-1.8.9-Linux-x64.tar.gz
+package=qli-Client-1.8.10-Linux-x64.tar.gz
 wget -4 -O $package https://dl.qubic.li/downloads/$package
 tar -xzvf $package
 mkdir /www.TeamWork.su/TeamWork.su_GPU
